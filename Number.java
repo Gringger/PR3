@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Number {
 	 long i;
      long j;
-     long mxcnt=1;
+     long mxcnt=4;
      public void run(){
-    	 scanner();
+    	 spooner();
     	 bigger();
     	 count();
     	 
@@ -20,7 +20,7 @@ private void scanner(){
 }}
 private void bigger(){
 	      if (i>j){ 
-		 long time;
+		 long clock;
 		 time=i; i=j; j=time;
 		}
 }
